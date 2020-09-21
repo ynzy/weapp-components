@@ -1,0 +1,28 @@
+<view class="container">
+  <navigationBar id="navigationBar"></navigationBar>
+  <view
+    class="view-row"
+    style="color:#aaa;font-size:36rpx;margin:30rpx;border-bottom:1rpx solid #aaa;padding:10rpx"
+  >custom-自定义导航栏</view>
+  <view style="font-size:32rpx;color:#aaa">上划改变导航栏样式</view>
+  <image
+    style="width:500rpx;height:800rpx;border-radius:20rpx;margin-top:20rpx"
+    src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1600685542467&di=899ed7b42fec5a5e8fcb85995762ac4f&imgtype=0&src=http%3A%2F%2Fimg.alicdn.com%2Fimgextra%2Fi1%2FO1CN011kDHlaKx8VXqN3N_%2521%2521433294649.jpg_400x400.jpg"
+  />
+  <image
+    style="width:500rpx;height:350rpx;border-radius:20rpx;margin-top:20rpx"
+    src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1600685542467&di=899ed7b42fec5a5e8fcb85995762ac4f&imgtype=0&src=http%3A%2F%2Fimg.alicdn.com%2Fimgextra%2Fi1%2FO1CN011kDHlaKx8VXqN3N_%2521%2521433294649.jpg_400x400.jpg"
+  />
+  <image
+    style="width:500rpx;height:600rpx;border-radius:20rpx;margin-top:20rpx"
+    src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1600685542467&di=899ed7b42fec5a5e8fcb85995762ac4f&imgtype=0&src=http%3A%2F%2Fimg.alicdn.com%2Fimgextra%2Fi1%2FO1CN011kDHlaKx8VXqN3N_%2521%2521433294649.jpg_400x400.jpg"
+  />
+  <image
+    style="width:500rpx;height:600rpx;border-radius:20rpx;margin-top:20rpx"
+    src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1600685542467&di=899ed7b42fec5a5e8fcb85995762ac4f&imgtype=0&src=http%3A%2F%2Fimg.alicdn.com%2Fimgextra%2Fi1%2FO1CN011kDHlaKx8VXqN3N_%2521%2521433294649.jpg_400x400.jpg"
+  />
+  <image
+    style="width:500rpx;height:600rpx;border-radius:20rpx;margin-top:20rpx"
+    src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1600685542467&di=899ed7b42fec5a5e8fcb85995762ac4f&imgtype=0&src=http%3A%2F%2Fimg.alicdn.com%2Fimgextra%2Fi1%2FO1CN011kDHlaKx8VXqN3N_%2521%2521433294649.jpg_400x400.jpg"
+  />
+</view>

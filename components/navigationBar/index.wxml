@@ -1,0 +1,17 @@
+<view class="container">
+  <view
+    class="view-navigation-bg"
+    style="width:{{systemInfo.windowWidth}}px;height:{{CustomBar}}px;opacity:{{opacity}}"
+  ></view>
+  <view
+    class="view-navigation-container"
+    style="width:{{systemInfo.windowWidth}}px;height:{{CustomBar}}px;"
+  >
+    <text
+      class="iconfont icon-fanhui icon_back"
+      style="padding:5px;margin-left:10px;top: {{Custom.top}}px;"
+      catchtap="back2home"
+    ></text>
+  </view>
+  <view style="width:{{systemInfo.windowWidth}}px;height:{{CustomBar}}px;"></view>
+</view>

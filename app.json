@@ -1,8 +1,9 @@
 {
   "pages": [
-    "pages/custom-bar/index",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/custom-gradient/index",
+    "pages/custom-navigation/index",
+    "pages/custom-bar/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

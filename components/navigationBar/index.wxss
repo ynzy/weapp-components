@@ -1,0 +1,24 @@
+.view-navigation-bg{
+  /* background:#fff; */
+  background: orange;
+  position: fixed
+}
+.view-navigation-container{
+  position: fixed
+}
+.image-navigation-back{
+  position: absolute;
+  left: 0
+}
+
+.icon_back{
+  position: absolute;
+  left: 0;
+  height: 44rpx;
+  width: 44rpx;
+  line-height: 44rpx;
+  text-align: center;
+  color: #fff;
+  background: rgba(0,0,0,0.2);
+  border-radius: 50%;
+}

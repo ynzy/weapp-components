@@ -1,0 +1,15 @@
+<view class="grident-bar bar {{ sticky ? '' : 'bar--fixed' }}">
+  <view
+    wx:if="{{ title }}"
+    class="bar__title"
+    style="padding-top: {{ top }}px;opacity: {{ opacity }};color: {{ textColor }}"
+  >
+    <text class="title_content">{{ title }}</text>
+  </view>
+  <text
+    wx:if="{{ showBack }}"
+    class="iconfont icon-fanhui {{opacity==1?'bar__back' :'icon_back'}}"
+    style="top: {{ top + 12 }}px;"
+    bind:click="onClickBack"
+  ></text>
+</view>
