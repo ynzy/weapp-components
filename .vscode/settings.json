@@ -1,0 +1,47 @@
+{
+  "compile-hero.disable-compile-files-on-did-save-code": true,
+  "less.compile": {
+    "compress": true, // true => remove surplus whitespace
+    "sourceMap": false, // true => generate source maps (.css.map files)
+    // "out": "${workspaceRoot}\\css\\",
+    "outExt": ".wxss",
+    "autoprefixer": "> 5%, last 2 Chrome versions, not ie 6-9"
+  },
+  "minapp-vscode.disableAutoConfig": false,
+  "minapp-vscode.disableDecorate": false,
+  "minapp-vscode.wxmlFormatter": "prettyHtml", //指定格式化工具
+  "minapp-vscode.prettyHtml": { //prettyHtml 默认配置
+    "useTabs": false,
+    "tabWidth": 2,
+    "printWidth": 100,
+    "singleQuote": false,
+    "usePrettier": true,
+    "wrapAttributes": false, //设置成 true 强制属性换行
+    "sortAttributes": false
+  },
+  "minapp-vscode.prettier": {
+    //prettier 更多参考https://prettier.io/docs/en/options.html
+    // 需指定wxml 的 parser, 推荐 angular 进行处理
+    "useTabs": true,
+    "printWidth": 120,
+    "tabWidth": 2,
+    "singleQuote": false,
+    "semi": false,
+    "trailingComma": "none",
+    "wrap_line_length": 120,
+    "wrap_attributes": "auto",
+    "proseWrap": "always",
+    "arrowParens": "avoid",
+    "bracketSpacing": true,
+    "jsxBracketSameLine": false,
+    "eslintIntegration": true,
+    "overrides": [{
+      "files": ".prettierrc",
+      "options": {
+        // "parser": "json",
+        "parser": "babel-eslint"
+      }
+    }],
+    "endOfLine": "auto"
+  },
+}

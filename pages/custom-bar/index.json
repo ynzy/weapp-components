@@ -1,0 +1,6 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "custom-bar-ordinary": "/components/custom-bar-ordinary/index"
+  }
+}

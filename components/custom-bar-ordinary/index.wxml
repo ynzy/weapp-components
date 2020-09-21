@@ -1,0 +1,3 @@
+<view class="custom_back" style="top:{{backTop}}px;padding-left:{{btnRight}}px">
+  <text class="iconfont icon-fanhui"></text>
+</view>

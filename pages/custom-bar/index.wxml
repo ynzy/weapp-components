@@ -1,0 +1,7 @@
+<view>
+  <!-- 普通的返回按键导航栏.只有一个返回按钮 custom-bar-ordinary -->
+  <custom-bar-ordinary />
+  <view style="height:500rpx;background:#00a2ff"></view>
+
+  <view class="text" wx:for="{{list}}" wx:key="index">很多文字</view>
+</view>
